@@ -16,7 +16,7 @@ def load_data():
 
 # Load the data
 df = load_data()
-P
+
 # Display the DataFrame in the Streamlit app
 df['Created_At'] = pd.to_datetime(df['Created_At'],  format='%d/%m/%Y %H:%M:%S',)
 df['Modified_At'] = pd.to_datetime(df['Modified_At'],  format='%d/%m/%Y %H:%M:%S',)
